@@ -8,5 +8,6 @@ steps:
   image: node:erbium
   commands:
   - npm install
+  - npm install -g grunt-cli
   - grunt install
   - grunt build
